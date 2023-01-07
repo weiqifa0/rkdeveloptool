@@ -39,3 +39,6 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 brew install libusb
 brew install libudev
 
+以及pkgconfig安装
+https://ports.macports.org/port/pkgconfig/#:~:text=To%20install%20pkgconfig%2C%20paste%20this%20in%20macOS%20terminal,installing%20MacPorts%20sudo%20port%20install%20pkgconfig%20More%20instructions
+
