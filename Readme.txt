@@ -26,3 +26,16 @@ if you encounter the error like below:
 
 You should install pkg-config libusb-1.0:
 	sudo apt-get install pkg-config libusb-1.0 
+
+
+# 在MacBook上是如何安装的呢？
+* brew install automake 
+
+安装libusb
+https://macappstore.org/libusb/
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+brew install libusb
+brew install libudev
+
